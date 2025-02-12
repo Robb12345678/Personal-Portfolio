@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Afacad Flux", sans-serif;
+    background-color: #f4f4f4;
+    color: #031214;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.sidebar {
+    background-color: #f5f0e1;
+    padding: 20px; 
+    width: 35%;
+    
+    text-align: center;
+    border-right: 2px solid #d1d1d1;
+}
+
+.sidebar h1 {
+    color: #5f5050;
+    font-size: 2.7rem;
+}
+
+.sidebar p {
+    color: #5f5050; 
+}
+
+
+
+.main-objective h3 {
+    color: #5f5050;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+.contact-details h3 {
+    color: #5f5050;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.profile-picture h3{
+    font-size: 1.2 rem; 
+    margin-bottom: 3rem; 
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.main-objective, .contact-details {
+    margin-top: 40px;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}
+
+.content {
+    background-color: #C3B9A4;
+    padding: 20px;
+    width: 65%;
+}
+
+.content section {
+    margin-bottom: 30px;
+}
+
+.skill{
+    list-style: disc;
+    padding-left: 20px;
+    color: #5f5050;
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    background-color: #f5f0e1;
+    border-radius: 20px;
+    overflow: hidden; 
+    height: 20px; 
+    width: 100%; 
+    margin-top: 5px; 
+}
+
+.skill-level{ 
+    height: 100%; 
+    background-color: #2b34476b;
+    width: 0; 
+    border-radius: 20px; 
+}
+
+
+
+
+h2 {
+    font-size: 1.5rem;
+    color: #5f5050;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d1d1d1;
+    padding-bottom: 5px;
+    
+}
+
+.job h3, .content p, ul {
+    color: #5f5050;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 2.5;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-left: 20px;
+    
+}
+
+/* ul li {
+    background: #e9e9e9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+} */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar, .content {
+        width: 100%;
+    }
+}
